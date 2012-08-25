@@ -83,4 +83,14 @@
     self.masterPopoverController = nil;
 }
 
+#pragma mark - custom methods
+
+-(void)isBegining
+{
+    
+}
+
+
+
+
 @end

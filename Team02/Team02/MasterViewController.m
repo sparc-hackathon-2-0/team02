@@ -35,6 +35,8 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    
+    //self.detailViewController = (DetailViewController *)[[self.splitViewController viewControllers] lastObject];
 }
 
 - (void)viewDidUnload
@@ -247,5 +249,53 @@
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = [[object valueForKey:@"timeStamp"] description];
 }
+
+#pragma mark - custom methods
+
+
+- (IBAction)profilePressed:(id)sender {
+    
+    if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
+    
+        [self.detailViewController performSegueWithIdentifier:@"profileSegue" sender:self];
+    }
+}
+
+- (IBAction)categoriesPressed:(id)sender {
+    if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
+        
+        [self.detailViewController performSegueWithIdentifier:@"CategoriesSegue" sender:self];
+    }}
+
+- (IBAction)classifiedPressed:(id)sender {
+    if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
+        
+        [self.detailViewController performSegueWithIdentifier:@"ClassifiedSegue" sender:self];
+    }}
+
+- (IBAction)localPressed:(id)sender {
+    if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
+        
+        [self.detailViewController performSegueWithIdentifier:@"LocalSegue" sender:self];
+    }}
+
+- (IBAction)HagglePressed:(id)sender {
+    if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
+        
+        [self.detailViewController performSegueWithIdentifier:@"HaggleSegue" sender:self];
+    }}
+
+- (IBAction)feelingLuckyPressed:(id)sender {
+    if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
+        
+        [self.detailViewController performSegueWithIdentifier:@"FeelingLuckySegue" sender:self];
+    }}
+
+
+
+
+
+
+
 
 @end

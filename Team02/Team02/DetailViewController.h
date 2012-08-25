@@ -14,4 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
+-(void)isBegining;
+
 @end
