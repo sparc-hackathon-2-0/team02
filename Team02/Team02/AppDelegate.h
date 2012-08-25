@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LocationMonitoringService.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    LocationMonitoringService *__locationMonitoringService;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+
+-(LocationMonitoringService *) locationMonitoringService;
 
 @end
