@@ -209,6 +209,10 @@
                                 <rect key="frame" x="290" y="43" width="122" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="profile-info.png" id="Ofk-1x-oCd">
+                                <rect key="frame" x="81" y="171" width="541" height="522"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -262,7 +266,6 @@
                                 </state>
                                 <connections>
                                     <action selector="goods:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="P9N-Z7-rCU"/>
-                                    <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="3KQ-4h-jse"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="s7I-mg-I1a">
@@ -277,7 +280,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="FeJ-6M-TgH"/>
                                     <action selector="services:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="2x6-MF-bru"/>
                                 </connections>
                             </button>
@@ -752,6 +754,7 @@
         <image name="icons-realestate.png" width="421" height="108"/>
         <image name="icons-services.png" width="357" height="108"/>
         <image name="logo-large.png" width="839" height="790"/>
+        <image name="profile-info.png" width="584" height="548"/>
         <image name="profilepic-Matt.png" width="122" height="120"/>
         <image name="profilepic-Mike.png" width="122" height="120"/>
         <image name="signin-button-pressed.png" width="703" height="127"/>
