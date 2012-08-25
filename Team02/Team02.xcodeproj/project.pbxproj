@@ -52,6 +52,14 @@
 		9873037715E95ECE00B33989 /* barterbee-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036F15E95ECE00B33989 /* barterbee-bg.png */; };
 		9873037815E95ECE00B33989 /* logo-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873037015E95ECE00B33989 /* logo-small.png */; };
 		9873037915E95ECE00B33989 /* logo-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873037115E95ECE00B33989 /* logo-large.png */; };
+		9873037B15E964D700B33989 /* barterbee-bg-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873037A15E964D700B33989 /* barterbee-bg-new.png */; };
+		9873037E15E966BB00B33989 /* Favorite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873037D15E966BB00B33989 /* Favorite.m */; };
+		9873038115E968D300B33989 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038015E968D300B33989 /* ProfileViewController.m */; };
+		9873038415E968E100B33989 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038315E968E100B33989 /* CategoriesViewController.m */; };
+		9873038715E968F300B33989 /* ClassifiedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038615E968F300B33989 /* ClassifiedsViewController.m */; };
+		9873038A15E9690200B33989 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038915E9690200B33989 /* LocalViewController.m */; };
+		9873038D15E9691100B33989 /* HaggleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038C15E9691100B33989 /* HaggleViewController.m */; };
+		9873039015E9691F00B33989 /* LuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038F15E9691F00B33989 /* LuckyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +119,21 @@
 		9873036F15E95ECE00B33989 /* barterbee-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "barterbee-bg.png"; path = "Design/elements/barterbee-bg.png"; sourceTree = SOURCE_ROOT; };
 		9873037015E95ECE00B33989 /* logo-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-small.png"; path = "Design/elements/logo-small.png"; sourceTree = SOURCE_ROOT; };
 		9873037115E95ECE00B33989 /* logo-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-large.png"; path = "Design/elements/logo-large.png"; sourceTree = SOURCE_ROOT; };
+		9873037A15E964D700B33989 /* barterbee-bg-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barterbee-bg-new.png"; sourceTree = "<group>"; };
+		9873037C15E966BB00B33989 /* Favorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorite.h; sourceTree = "<group>"; };
+		9873037D15E966BB00B33989 /* Favorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorite.m; sourceTree = "<group>"; };
+		9873037F15E968D300B33989 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		9873038015E968D300B33989 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		9873038215E968E100B33989 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		9873038315E968E100B33989 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		9873038515E968F300B33989 /* ClassifiedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifiedsViewController.h; sourceTree = "<group>"; };
+		9873038615E968F300B33989 /* ClassifiedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifiedsViewController.m; sourceTree = "<group>"; };
+		9873038815E9690200B33989 /* LocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		9873038915E9690200B33989 /* LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		9873038B15E9691100B33989 /* HaggleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaggleViewController.h; sourceTree = "<group>"; };
+		9873038C15E9691100B33989 /* HaggleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaggleViewController.m; sourceTree = "<group>"; };
+		9873038E15E9691F00B33989 /* LuckyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyViewController.h; sourceTree = "<group>"; };
+		9873038F15E9691F00B33989 /* LuckyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,21 +199,26 @@
 				986B56AB15E9355400BE9603 /* DetailViewController.h */,
 				986B56AC15E9355400BE9603 /* DetailViewController.m */,
 				986B56AF15E9364E00BE9603 /* Model.xcdatamodeld */,
+				9873037C15E966BB00B33989 /* Favorite.h */,
+				9873037D15E966BB00B33989 /* Favorite.m */,
 				983043F115E94253001CAD00 /* Event.h */,
 				983043F215E94253001CAD00 /* Event.m */,
 				986B56B915E93FA800BE9603 /* LoginViewController.h */,
 				986B56BA15E93FA800BE9603 /* LoginViewController.m */,
 				983043F515E9448F001CAD00 /* LoggingInViewController.h */,
 				983043F615E9448F001CAD00 /* LoggingInViewController.m */,
-				9873036515E95EC500B33989 /* profilepic-Matt.png */,
-				9873036A15E95ECE00B33989 /* signin-button.png */,
-				9873036B15E95ECE00B33989 /* signin-button-pressed.png */,
-				9873036D15E95ECE00B33989 /* dark-row.png */,
-				9873036E15E95ECE00B33989 /* dark-row-pressed.png */,
-				9873036F15E95ECE00B33989 /* barterbee-bg.png */,
-				9873037015E95ECE00B33989 /* logo-small.png */,
-				9873037115E95ECE00B33989 /* logo-large.png */,
-				9873036615E95EC500B33989 /* profilepic-Mike.png */,
+				9873037F15E968D300B33989 /* ProfileViewController.h */,
+				9873038015E968D300B33989 /* ProfileViewController.m */,
+				9873038215E968E100B33989 /* CategoriesViewController.h */,
+				9873038315E968E100B33989 /* CategoriesViewController.m */,
+				9873038515E968F300B33989 /* ClassifiedsViewController.h */,
+				9873038615E968F300B33989 /* ClassifiedsViewController.m */,
+				9873038815E9690200B33989 /* LocalViewController.h */,
+				9873038915E9690200B33989 /* LocalViewController.m */,
+				9873038B15E9691100B33989 /* HaggleViewController.h */,
+				9873038C15E9691100B33989 /* HaggleViewController.m */,
+				9873038E15E9691F00B33989 /* LuckyViewController.h */,
+				9873038F15E9691F00B33989 /* LuckyViewController.m */,
 			);
 			path = Team02;
 			sourceTree = "<group>";
@@ -210,6 +238,16 @@
 			isa = PBXGroup;
 			children = (
 				986B560515E9210100BE9603 /* background.png */,
+				9873036515E95EC500B33989 /* profilepic-Matt.png */,
+				9873036A15E95ECE00B33989 /* signin-button.png */,
+				9873036B15E95ECE00B33989 /* signin-button-pressed.png */,
+				9873036D15E95ECE00B33989 /* dark-row.png */,
+				9873036E15E95ECE00B33989 /* dark-row-pressed.png */,
+				9873036F15E95ECE00B33989 /* barterbee-bg.png */,
+				9873037015E95ECE00B33989 /* logo-small.png */,
+				9873037115E95ECE00B33989 /* logo-large.png */,
+				9873037A15E964D700B33989 /* barterbee-bg-new.png */,
+				9873036615E95EC500B33989 /* profilepic-Mike.png */,
 				986B560615E9210100BE9603 /* background@2x.png */,
 				986B560715E9210100BE9603 /* button_separator.png */,
 				986B560815E9210100BE9603 /* button_separator@2x.png */,
@@ -312,6 +350,7 @@
 				9873037715E95ECE00B33989 /* barterbee-bg.png in Resources */,
 				9873037815E95ECE00B33989 /* logo-small.png in Resources */,
 				9873037915E95ECE00B33989 /* logo-large.png in Resources */,
+				9873037B15E964D700B33989 /* barterbee-bg-new.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +371,13 @@
 				986B56BB15E93FA900BE9603 /* LoginViewController.m in Sources */,
 				983043F315E94253001CAD00 /* Event.m in Sources */,
 				983043F715E9448F001CAD00 /* LoggingInViewController.m in Sources */,
+				9873037E15E966BB00B33989 /* Favorite.m in Sources */,
+				9873038115E968D300B33989 /* ProfileViewController.m in Sources */,
+				9873038415E968E100B33989 /* CategoriesViewController.m in Sources */,
+				9873038715E968F300B33989 /* ClassifiedsViewController.m in Sources */,
+				9873038A15E9690200B33989 /* LocalViewController.m in Sources */,
+				9873038D15E9691100B33989 /* HaggleViewController.m in Sources */,
+				9873039015E9691F00B33989 /* LuckyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,7 +3,11 @@
     <entity name="Event" representedClassName="Event" syncable="YES">
         <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
+    <entity name="Favorite" representedClassName="Favorite" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Event" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="Favorite" positionX="160" positionY="192" width="128" height="60"/>
     </elements>
 </model>

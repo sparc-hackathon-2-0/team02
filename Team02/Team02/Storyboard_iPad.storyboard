@@ -30,14 +30,20 @@
             </objects>
             <point key="canvasLocation" x="3727" y="2201"/>
         </scene>
-        <!--View Controller-->
+        <!--Local View Controller-->
         <scene sceneID="wef-16-inI">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HEe-6L-Pfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="0a5-4R-MRS" sceneMemberID="viewController">
+                <viewController id="0a5-4R-MRS" customClass="LocalViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kky-aW-4E8">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="7B4-nM-yJc">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="5hz-8Z-cMv"/>
@@ -48,14 +54,20 @@
             </objects>
             <point key="canvasLocation" x="6432" y="3495"/>
         </scene>
-        <!--View Controller-->
+        <!--Lucky View Controller-->
         <scene sceneID="Z8j-JN-x3o">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KAr-uR-Ywh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="xis-eg-Ucc" sceneMemberID="viewController">
+                <viewController id="xis-eg-Ucc" customClass="LuckyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gyN-8X-1D1">
                         <rect key="frame" x="0.0" y="64" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="YyX-wo-eJp">
+                                <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -67,14 +79,20 @@
             </objects>
             <point key="canvasLocation" x="6575" y="5599"/>
         </scene>
-        <!--View Controller-->
+        <!--Haggle View Controller-->
         <scene sceneID="znx-ak-MNL">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aze-o3-XoS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Dzx-xJ-kKa" sceneMemberID="viewController">
+                <viewController id="Dzx-xJ-kKa" customClass="HaggleViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TPU-Cr-wxf">
                         <rect key="frame" x="0.0" y="64" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="elP-DF-H0q">
+                                <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -86,14 +104,20 @@
             </objects>
             <point key="canvasLocation" x="6767" y="4559"/>
         </scene>
-        <!--View Controller-->
+        <!--Classifieds View Controller-->
         <scene sceneID="5JG-jX-Xa0">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6F-j4-Wlf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="kbh-eL-fV8" sceneMemberID="viewController">
+                <viewController id="kbh-eL-fV8" customClass="ClassifiedsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FvX-2T-lfx">
                         <rect key="frame" x="0.0" y="64" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="QU9-9O-Dt7">
+                                <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -105,16 +129,16 @@
             </objects>
             <point key="canvasLocation" x="6416" y="2359"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="E9a-g5-8vi">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcH-2c-xJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="hpr-Xl-dqQ" sceneMemberID="viewController">
+                <viewController id="hpr-Xl-dqQ" customClass="ProfileViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i7A-OG-Sez">
                         <rect key="frame" x="0.0" y="64" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg.png" id="WJi-xr-z98">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="WJi-xr-z98">
                                 <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -134,14 +158,20 @@
             </objects>
             <point key="canvasLocation" x="6615" y="79"/>
         </scene>
-        <!--View Controller-->
+        <!--Categories View Controller-->
         <scene sceneID="kLh-tf-iwI">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yum-Gc-2fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Qey-hA-Oi8" sceneMemberID="viewController">
+                <viewController id="Qey-hA-Oi8" customClass="CategoriesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CGR-PZ-0Vz">
                         <rect key="frame" x="0.0" y="64" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="vws-Xn-JeI">
+                                <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -163,7 +193,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jop-xL-0vj">
-                                <rect key="frame" x="357" y="584" width="311" height="67"/>
+                                <rect key="frame" x="357" y="561" width="311" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Login" image="signin-button.png">
@@ -182,28 +212,14 @@
                                 <rect key="frame" x="355" y="115" width="315" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="fLE-h3-M5p">
-                                <rect key="frame" x="357" y="414" width="46" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="esT-rx-J4f">
-                                <rect key="frame" x="357" y="490" width="76" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="Jic-5w-Y8S">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" id="Jic-5w-Y8S">
                                 <rect key="frame" x="355" y="448" width="313" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="QSW-Xv-Cs9">
-                                <rect key="frame" x="355" y="524" width="313" height="31"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="QSW-Xv-Cs9">
+                                <rect key="frame" x="356" y="497" width="313" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -310,11 +326,11 @@
                                 <sections/>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo-large.png" id="pae-UT-CWb">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="257"/>
+                                <rect key="frame" x="44" y="13" width="233" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TI1-aG-Lqz">
-                                <rect key="frame" x="20" y="265" width="280" height="37"/>
+                                <rect key="frame" x="20" y="230" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Profile" image="dark-row.png">
@@ -330,7 +346,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5eS-ui-CQo">
-                                <rect key="frame" x="20" y="310" width="280" height="37"/>
+                                <rect key="frame" x="20" y="275" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Categories" image="dark-row.png">
@@ -346,7 +362,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jzF-ts-3YM">
-                                <rect key="frame" x="20" y="355" width="280" height="37"/>
+                                <rect key="frame" x="20" y="320" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Classifieds" image="dark-row.png">
@@ -361,7 +377,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bgo-iz-6oX">
-                                <rect key="frame" x="20" y="400" width="280" height="37"/>
+                                <rect key="frame" x="20" y="365" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Local / Map" image="dark-row.png">
@@ -376,7 +392,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gMf-jB-DPs">
-                                <rect key="frame" x="20" y="445" width="280" height="37"/>
+                                <rect key="frame" x="20" y="410" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Haggle" image="dark-row.png">
@@ -391,7 +407,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="inM-Ii-JXN">
-                                <rect key="frame" x="20" y="490" width="280" height="37"/>
+                                <rect key="frame" x="20" y="455" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Feeling Lucky?" image="dark-row.png">
@@ -406,42 +422,49 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="xO8-iI-l2Z">
-                                <rect key="frame" x="139" y="273" width="49" height="21"/>
+                                <rect key="frame" x="139" y="238" width="49" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Categories" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="rVi-1t-Ioh">
-                                <rect key="frame" x="122" y="318" width="83" height="21"/>
+                                <rect key="frame" x="122" y="283" width="83" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Classifieds" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="wLH-3G-nQP">
-                                <rect key="frame" x="122" y="363" width="83" height="21"/>
+                                <rect key="frame" x="122" y="328" width="83" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Local / Map" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Guf-Bb-Qnr">
-                                <rect key="frame" x="118" y="408" width="91" height="21"/>
+                                <rect key="frame" x="118" y="373" width="91" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Haggle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="C1W-ax-wTX">
-                                <rect key="frame" x="136" y="453" width="54" height="21"/>
+                                <rect key="frame" x="136" y="418" width="54" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Feeling Lucky?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="nVb-d4-SNk">
-                                <rect key="frame" x="105" y="498" width="116" height="21"/>
+                                <rect key="frame" x="105" y="463" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Favorites" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="0IU-rR-Qon">
+                                <rect key="frame" x="128" y="512" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -611,7 +634,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="barterbee-bg.png" width="1024" height="768"/>
+        <image name="barterbee-bg-new.png" width="722" height="768"/>
         <image name="dark-row-pressed.png" width="302" height="50"/>
         <image name="dark-row.png" width="302" height="50"/>
         <image name="logo-large.png" width="839" height="790"/>
@@ -619,41 +642,12 @@
         <image name="signin-button-pressed.png" width="791" height="141"/>
         <image name="signin-button.png" width="791" height="141"/>
     </resources>
-    <classes>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="LoggingInViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoggingInViewController.h"/>
-        </class>
-        <class className="LoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loginPressed:"/>
-            </relationships>
-        </class>
-        <class className="MasterViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="HagglePressed:"/>
-                <relationship kind="action" name="categoriesPressed:"/>
-                <relationship kind="action" name="classifiedPressed:"/>
-                <relationship kind="action" name="feelingLuckyPressed:"/>
-                <relationship kind="action" name="localPressed:"/>
-                <relationship kind="action" name="profilePressed:"/>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rFO-CY-MzK"/>
+        <segue reference="qcI-6Q-avF"/>
     </inferredMetricsTieBreakers>
 </document>
