@@ -45,14 +45,17 @@
         imageView.image = [UIImage imageNamed:singleImageFilename];
         imageView.contentMode = UIViewContentModeScaleAspectFit;
         [imageView setTag:count];
+        
+        UIGestureRecognizer *tapGesture = [[UIGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped:)];
+        
+        [imageView addGestureRecognizer:tapGesture];
+        
         //imageView.contentMode = UIViewContentModeScaleAspectFill;
         [_scrollView addSubview:imageView];
         contentOffset += _scrollView.frame.size.height;
         _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width, contentOffset);
         
-        UIGestureRecognizer *tapGesture = [[UIGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped:)];
         
-        [imageView addGestureRecognizer:tapGesture];
         
     }
     

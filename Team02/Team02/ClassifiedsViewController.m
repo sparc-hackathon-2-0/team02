@@ -30,9 +30,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    NSArray *imageFilenames = [NSArray arrayWithObjects:@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",nil];
+    NSArray *imageFilenames = [NSArray arrayWithObjects:@"ad-service-needed",@"ad-good-needed.png",@"ad-service-offered.png",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",nil];
     
     _scrollView = [[SlideShowController alloc] initWithScrollView:_scrollView andImageFilenamesArray:imageFilenames andTimeInterval:5.0];
+    
+    
     
 }
 

@@ -11,7 +11,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HN0-m9-wF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Detail" id="Xl3-m7-dLT" customClass="DetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KqW-eW-W0n">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -60,7 +60,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KAr-uR-Ywh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xis-eg-Ucc" customClass="LuckyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gyN-8X-1D1">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="YyX-wo-eJp">
@@ -85,7 +85,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aze-o3-XoS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Dzx-xJ-kKa" customClass="HaggleViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TPU-Cr-wxf">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="elP-DF-H0q">
@@ -110,7 +110,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6F-j4-Wlf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="kbh-eL-fV8" customClass="ClassifiedsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FvX-2T-lfx">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="QU9-9O-Dt7">
@@ -140,7 +140,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcH-2c-xJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="hpr-Xl-dqQ" customClass="ProfileViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i7A-OG-Sez">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="WJi-xr-z98">
@@ -161,7 +161,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="6615" y="79"/>
+            <point key="canvasLocation" x="6603" y="27"/>
         </scene>
         <!--Categories View Controller-->
         <scene sceneID="kLh-tf-iwI">
@@ -169,7 +169,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yum-Gc-2fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Qey-hA-Oi8" customClass="CategoriesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CGR-PZ-0Vz">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="vws-Xn-JeI">
@@ -186,7 +186,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="6405" y="1143"/>
+            <point key="canvasLocation" x="6557" y="1135"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="fC9-Vt-qR3">
@@ -540,7 +540,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="5567" y="1127"/>
+            <point key="canvasLocation" x="5203" y="1103"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mqM-l3-XbC">
@@ -559,7 +559,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="5466" y="2415"/>
+            <point key="canvasLocation" x="5090" y="2327"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jlw-xF-Amx">
@@ -597,7 +597,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="5721" y="87"/>
+            <point key="canvasLocation" x="5369" y="7"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="j5j-hz-QU3">
@@ -647,62 +647,12 @@
         <image name="signin-button-pressed.png" width="791" height="141"/>
         <image name="signin-button.png" width="791" height="141"/>
     </resources>
-    <classes>
-        <class className="CategoriesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CategoriesViewController.h"/>
-        </class>
-        <class className="ClassifiedsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClassifiedsViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="HaggleViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HaggleViewController.h"/>
-        </class>
-        <class className="LocalViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LocalViewController.h"/>
-        </class>
-        <class className="LoggingInViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoggingInViewController.h"/>
-        </class>
-        <class className="LoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loginPressed:"/>
-            </relationships>
-        </class>
-        <class className="LuckyViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LuckyViewController.h"/>
-        </class>
-        <class className="MasterViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="HagglePressed:"/>
-                <relationship kind="action" name="categoriesPressed:"/>
-                <relationship kind="action" name="classifiedPressed:"/>
-                <relationship kind="action" name="feelingLuckyPressed:"/>
-                <relationship kind="action" name="localPressed:"/>
-                <relationship kind="action" name="profilePressed:"/>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="ProfileViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfileViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rFO-CY-MzK"/>
+        <segue reference="bTf-V0-eec"/>
     </inferredMetricsTieBreakers>
 </document>

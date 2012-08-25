@@ -62,6 +62,11 @@
 		9873039015E9691F00B33989 /* LuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038F15E9691F00B33989 /* LuckyViewController.m */; };
 		9873039215E9705300B33989 /* ad-service-needed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873039115E9705300B33989 /* ad-service-needed.png */; };
 		9873039515E9726F00B33989 /* SlideShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873039415E9726F00B33989 /* SlideShowController.m */; };
+		9873039B15E979FC00B33989 /* ad-good-needed-fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873039615E979FB00B33989 /* ad-good-needed-fav.png */; };
+		9873039C15E979FC00B33989 /* ad-good-needed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873039715E979FC00B33989 /* ad-good-needed.png */; };
+		9873039D15E979FC00B33989 /* ad-service-needed-fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873039815E979FC00B33989 /* ad-service-needed-fav.png */; };
+		9873039E15E979FC00B33989 /* ad-service-offered-fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873039915E979FC00B33989 /* ad-service-offered-fav.png */; };
+		9873039F15E979FC00B33989 /* ad-service-offered.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873039A15E979FC00B33989 /* ad-service-offered.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +144,11 @@
 		9873039115E9705300B33989 /* ad-service-needed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-service-needed.png"; sourceTree = "<group>"; };
 		9873039315E9726F00B33989 /* SlideShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShowController.h; sourceTree = "<group>"; };
 		9873039415E9726F00B33989 /* SlideShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideShowController.m; sourceTree = "<group>"; };
+		9873039615E979FB00B33989 /* ad-good-needed-fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-good-needed-fav.png"; sourceTree = "<group>"; };
+		9873039715E979FC00B33989 /* ad-good-needed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-good-needed.png"; sourceTree = "<group>"; };
+		9873039815E979FC00B33989 /* ad-service-needed-fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-service-needed-fav.png"; sourceTree = "<group>"; };
+		9873039915E979FC00B33989 /* ad-service-offered-fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-service-offered-fav.png"; sourceTree = "<group>"; };
+		9873039A15E979FC00B33989 /* ad-service-offered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-service-offered.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +255,11 @@
 			isa = PBXGroup;
 			children = (
 				986B560515E9210100BE9603 /* background.png */,
+				9873039615E979FB00B33989 /* ad-good-needed-fav.png */,
+				9873039715E979FC00B33989 /* ad-good-needed.png */,
+				9873039815E979FC00B33989 /* ad-service-needed-fav.png */,
+				9873039915E979FC00B33989 /* ad-service-offered-fav.png */,
+				9873039A15E979FC00B33989 /* ad-service-offered.png */,
 				9873039115E9705300B33989 /* ad-service-needed.png */,
 				9873036515E95EC500B33989 /* profilepic-Matt.png */,
 				9873036A15E95ECE00B33989 /* signin-button.png */,
@@ -360,6 +375,11 @@
 				9873037915E95ECE00B33989 /* logo-large.png in Resources */,
 				9873037B15E964D700B33989 /* barterbee-bg-new.png in Resources */,
 				9873039215E9705300B33989 /* ad-service-needed.png in Resources */,
+				9873039B15E979FC00B33989 /* ad-good-needed-fav.png in Resources */,
+				9873039C15E979FC00B33989 /* ad-good-needed.png in Resources */,
+				9873039D15E979FC00B33989 /* ad-service-needed-fav.png in Resources */,
+				9873039E15E979FC00B33989 /* ad-service-offered-fav.png in Resources */,
+				9873039F15E979FC00B33989 /* ad-service-offered.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
