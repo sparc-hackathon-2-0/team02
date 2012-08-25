@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    UIImage *patternImage = [UIImage imageNamed:@"use_your_illusion_@2X.png"];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:patternImage];
 }
 
 - (void)viewDidUnload

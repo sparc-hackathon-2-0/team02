@@ -258,6 +258,10 @@
     if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
     
         [self.detailViewController performSegueWithIdentifier:@"profileSegue" sender:self];
+    }else{
+        [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
+        
+        self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     }
 }
 
@@ -265,31 +269,56 @@
     if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
         
         [self.detailViewController performSegueWithIdentifier:@"CategoriesSegue" sender:self];
-    }}
+    }else{
+        [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
+        
+        self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    }
+}
 
 - (IBAction)classifiedPressed:(id)sender {
     if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
         
         [self.detailViewController performSegueWithIdentifier:@"ClassifiedSegue" sender:self];
-    }}
+    }else{
+        [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
+        
+        self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    }
+}
 
 - (IBAction)localPressed:(id)sender {
     if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
         
         [self.detailViewController performSegueWithIdentifier:@"LocalSegue" sender:self];
-    }}
+    }else{
+        [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
+        
+        self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    }
+}
 
 - (IBAction)HagglePressed:(id)sender {
     if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
         
         [self.detailViewController performSegueWithIdentifier:@"HaggleSegue" sender:self];
-    }}
+    }else{
+        [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
+        
+        self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    }
+}
 
 - (IBAction)feelingLuckyPressed:(id)sender {
     if ([[[self.splitViewController.viewControllers lastObject] topViewController] respondsToSelector:@selector(isBegining)]){
         
         [self.detailViewController performSegueWithIdentifier:@"FeelingLuckySegue" sender:self];
-    }}
+    }else{
+        [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
+        
+        self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    }
+}
 
 
 
