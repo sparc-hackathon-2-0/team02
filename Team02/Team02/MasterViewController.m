@@ -37,6 +37,9 @@
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
     //self.detailViewController = (DetailViewController *)[[self.splitViewController viewControllers] lastObject];
+    
+    UIImage *patternImage = [UIImage imageNamed:@"use_your_illusion_@2X.png"];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:patternImage];
 }
 
 - (void)viewDidUnload
@@ -262,6 +265,8 @@
         [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
         
         self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+        
+        [self.detailViewController performSegueWithIdentifier:@"profileSegue" sender:self];
     }
 }
 
@@ -273,6 +278,8 @@
         [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
         
         self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+        
+        [self.detailViewController performSegueWithIdentifier:@"CategoriesSegue" sender:self];
     }
 }
 
@@ -284,6 +291,8 @@
         [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
         
         self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+        
+        [self.detailViewController performSegueWithIdentifier:@"ClassifiedSegue" sender:self];
     }
 }
 
@@ -295,6 +304,8 @@
         [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
         
         self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+        
+        [self.detailViewController performSegueWithIdentifier:@"LocalSegue" sender:self];
     }
 }
 
@@ -306,6 +317,8 @@
         [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
         
         self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+        
+        [self.detailViewController performSegueWithIdentifier:@"HaggleSegue" sender:self];
     }
 }
 
@@ -317,6 +330,8 @@
         [[[self.splitViewController.viewControllers lastObject] topViewController]performSegueWithIdentifier:@"returnToOrig" sender:self];
         
         self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+        
+        [self.detailViewController performSegueWithIdentifier:@"FeelingLuckySegue" sender:self];
     }
 }
 

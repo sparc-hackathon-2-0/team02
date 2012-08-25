@@ -43,6 +43,15 @@
 		986B56B115E9364E00BE9603 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 986B56AF15E9364E00BE9603 /* Model.xcdatamodeld */; };
 		986B56B315E9367100BE9603 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986B56B215E9367100BE9603 /* CoreData.framework */; };
 		986B56BB15E93FA900BE9603 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986B56BA15E93FA800BE9603 /* LoginViewController.m */; };
+		9873036715E95EC500B33989 /* profilepic-Matt.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036515E95EC500B33989 /* profilepic-Matt.png */; };
+		9873036815E95EC500B33989 /* profilepic-Mike.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036615E95EC500B33989 /* profilepic-Mike.png */; };
+		9873037215E95ECE00B33989 /* signin-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036A15E95ECE00B33989 /* signin-button.png */; };
+		9873037315E95ECE00B33989 /* signin-button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036B15E95ECE00B33989 /* signin-button-pressed.png */; };
+		9873037515E95ECE00B33989 /* dark-row.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036D15E95ECE00B33989 /* dark-row.png */; };
+		9873037615E95ECE00B33989 /* dark-row-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036E15E95ECE00B33989 /* dark-row-pressed.png */; };
+		9873037715E95ECE00B33989 /* barterbee-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873036F15E95ECE00B33989 /* barterbee-bg.png */; };
+		9873037815E95ECE00B33989 /* logo-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873037015E95ECE00B33989 /* logo-small.png */; };
+		9873037915E95ECE00B33989 /* logo-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873037115E95ECE00B33989 /* logo-large.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +102,15 @@
 		986B56B215E9367100BE9603 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		986B56B915E93FA800BE9603 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		986B56BA15E93FA800BE9603 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9873036515E95EC500B33989 /* profilepic-Matt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profilepic-Matt.png"; path = "Design/elements/profilepic-Matt.png"; sourceTree = SOURCE_ROOT; };
+		9873036615E95EC500B33989 /* profilepic-Mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profilepic-Mike.png"; path = "Design/elements/profilepic-Mike.png"; sourceTree = SOURCE_ROOT; };
+		9873036A15E95ECE00B33989 /* signin-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "signin-button.png"; path = "Design/elements/signin-button.png"; sourceTree = SOURCE_ROOT; };
+		9873036B15E95ECE00B33989 /* signin-button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "signin-button-pressed.png"; path = "Design/elements/signin-button-pressed.png"; sourceTree = SOURCE_ROOT; };
+		9873036D15E95ECE00B33989 /* dark-row.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-row.png"; path = "Design/elements/dark-row.png"; sourceTree = SOURCE_ROOT; };
+		9873036E15E95ECE00B33989 /* dark-row-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-row-pressed.png"; path = "Design/elements/dark-row-pressed.png"; sourceTree = SOURCE_ROOT; };
+		9873036F15E95ECE00B33989 /* barterbee-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "barterbee-bg.png"; path = "Design/elements/barterbee-bg.png"; sourceTree = SOURCE_ROOT; };
+		9873037015E95ECE00B33989 /* logo-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-small.png"; path = "Design/elements/logo-small.png"; sourceTree = SOURCE_ROOT; };
+		9873037115E95ECE00B33989 /* logo-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-large.png"; path = "Design/elements/logo-large.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +182,15 @@
 				986B56BA15E93FA800BE9603 /* LoginViewController.m */,
 				983043F515E9448F001CAD00 /* LoggingInViewController.h */,
 				983043F615E9448F001CAD00 /* LoggingInViewController.m */,
+				9873036515E95EC500B33989 /* profilepic-Matt.png */,
+				9873036A15E95ECE00B33989 /* signin-button.png */,
+				9873036B15E95ECE00B33989 /* signin-button-pressed.png */,
+				9873036D15E95ECE00B33989 /* dark-row.png */,
+				9873036E15E95ECE00B33989 /* dark-row-pressed.png */,
+				9873036F15E95ECE00B33989 /* barterbee-bg.png */,
+				9873037015E95ECE00B33989 /* logo-small.png */,
+				9873037115E95ECE00B33989 /* logo-large.png */,
+				9873036615E95EC500B33989 /* profilepic-Mike.png */,
 			);
 			path = Team02;
 			sourceTree = "<group>";
@@ -276,6 +303,15 @@
 				986B562615E9219100BE9603 /* home@2x.png in Resources */,
 				986B562715E9219100BE9603 /* selected_arrow.png in Resources */,
 				986B562815E9219100BE9603 /* selected_arrow@2x.png in Resources */,
+				9873036715E95EC500B33989 /* profilepic-Matt.png in Resources */,
+				9873036815E95EC500B33989 /* profilepic-Mike.png in Resources */,
+				9873037215E95ECE00B33989 /* signin-button.png in Resources */,
+				9873037315E95ECE00B33989 /* signin-button-pressed.png in Resources */,
+				9873037515E95ECE00B33989 /* dark-row.png in Resources */,
+				9873037615E95ECE00B33989 /* dark-row-pressed.png in Resources */,
+				9873037715E95ECE00B33989 /* barterbee-bg.png in Resources */,
+				9873037815E95ECE00B33989 /* logo-small.png in Resources */,
+				9873037915E95ECE00B33989 /* logo-large.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
