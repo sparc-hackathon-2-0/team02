@@ -148,7 +148,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="profilepic-Mike.png" id="mUy-IN-fbJ">
-                                <rect key="frame" x="34" y="30" width="122" height="120"/>
+                                <rect key="frame" x="290" y="43" width="122" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -331,7 +331,7 @@
                                 <sections/>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo-large.png" id="pae-UT-CWb">
-                                <rect key="frame" x="44" y="13" width="233" height="199"/>
+                                <rect key="frame" x="57" y="20" width="206" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TI1-aG-Lqz">
@@ -703,6 +703,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="bTf-V0-eec"/>
+        <segue reference="rFO-CY-MzK"/>
     </inferredMetricsTieBreakers>
 </document>
