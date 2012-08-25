@@ -7,12 +7,14 @@
 //
 
 #import "LocalViewController.h"
-
-@interface LocalViewController ()
-
-@end
+#import "LocationMonitoringService.h"
+#import "MyLineDrawingView.h"
+#import "AppDelegate.h"
 
 @implementation LocalViewController
+
+
+@synthesize mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +28,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+	LocationMonitoringService *locationMonitoringService = [(AppDelegate *)[[UIApplication sharedApplication] delegate] locationMonitoringService];
+    [locationMonitoringService setDelegate:self];
+    [locationMonitoringService startMonitoringLocation];
+    MyLineDrawingView *lineDrawingView = [[MyLineDrawingView alloc] initWithFrame:self.view.frame];
+    lineDrawingView.backgroundColor = [UIColor colorWithWhite:0 alpha:0];
+    [mapView addSubview:lineDrawingView];
+    
 }
 
 - (void)viewDidUnload

@@ -7,7 +7,6 @@
 //
 
 #import "SlideShowController.h"
-#import "Favorite.h"
 
 @implementation SlideShowController
 
@@ -15,9 +14,6 @@
 @synthesize scrollView = _scrollView;
 @synthesize timeInterval = _timeInterval;
 @synthesize imageFilenames = _imageFilenames;
-@synthesize managedObjectContext = _managedObjectContext;
-@synthesize appDelegate = _appDelegate;
-@synthesize delegate = _delegate;
 
 - (id) initWithScrollView:(UIScrollView *)scrollView andImageFilenamesArray:(NSArray *)imageFilenames andTimeInterval:(float)timeInterval
 {
@@ -54,27 +50,8 @@
         
         [imageView addGestureRecognizer:tapGesture];
         
-        //[imageView setUserInteractionEnabled:YES];
-        
-        //create background image
-        //UIImageView *rowsBackground = [[UIImageView alloc] initWithImage:[self scaleAndRotateImage:[UIImage imageNamed:@"mylongbackground.png"]]];
-        //rowsBackground.userInteractionEnabled = YES;
-        
-        //create button
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        btn.frame = [imageView frame];
-        btn.bounds = [imageView bounds];
-        [btn setImage:[imageView image] forState:UIControlStateNormal];
-        [btn addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
-        
-        //add "stuff" to scrolling area
-        
-        [scrollView addSubview:btn];
-        
-        
-        
         //imageView.contentMode = UIViewContentModeScaleAspectFill;
-        //[_scrollView addSubview:imageView];
+        [_scrollView addSubview:imageView];
         contentOffset += _scrollView.frame.size.height;
         _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width, contentOffset);
         
@@ -89,21 +66,6 @@
     
     //return self reference 
     return self;
-}
-
--(void)buttonClick:(UIButton *)target
-{
-    NSLog(@"testttt");
-    
-    //if( [target )
-    
-    //[target setImage:[UIImage imageNamed:@"ad-good-needed-fav.png"] forState:UIControlStateNormal];
-    
-    
-    //[self createFavoriteWithString:@"test"];
-    
-    [_delegate segueToItem];
-    
 }
 
 - (void) stopSlideShow
@@ -188,44 +150,6 @@
 - (void) dealloc
 {
     [self stopSlideShow];
-}
-
--(void)createFavoriteWithString:(NSString *)name
-{
-    Favorite *fav = [NSEntityDescription entityForName:@"Favorite" inManagedObjectContext:self.managedObjectContext];
-    [fav setName:name];
-    
-    [self.managedObjectContext save:nil];
-}
-
--(void)deleteFavorite:(NSString *)name
-{
-    
-    
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Document" inManagedObjectContext:self.managedObjectContext];
-    [fetchRequest setEntity:entity];
-    
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(name == %@)", name];
-    [fetchRequest setPredicate:predicate];
-    
-    // Edit the section name key path and cache name if appropriate.
-    // nil for section name key path means "no sections".
-    NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:@"Master"];
-    
-	NSError *error = nil;
-	if (![aFetchedResultsController performFetch:&error]) {
-        // Replace this implementation with code to handle the error appropriately.
-        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-	    NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-	    abort();
-	}
-    
-    [self.managedObjectContext deleteObject:[aFetchedResultsController objectAtIndexPath:[NSIndexPath indexPathWithIndex:0]]];
-    
-    [self.managedObjectContext save:nil];
-    
-    
 }
 
 

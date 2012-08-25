@@ -43,12 +43,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="oIO-ul-9Gl">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="5hz-8Z-cMv"/>
                     <connections>
+                        <outlet property="mapView" destination="oIO-ul-9Gl" id="uA6-u6-MoU"/>
                         <segue destination="FuB-8w-Nrd" kind="replace" identifier="returnToOrig" splitViewControllerTargetIndex="1" id="1Uo-p9-ZgA"/>
                     </connections>
                 </viewController>

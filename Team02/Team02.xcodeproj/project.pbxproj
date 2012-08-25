@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D564F2A15E98B8000962BFE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D564F2915E98B8000962BFE /* MapKit.framework */; };
+		2D564F2C15E98B8B00962BFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D564F2B15E98B8B00962BFE /* CoreLocation.framework */; };
+		2D564F2F15E98FEC00962BFE /* LocationMonitoringService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D564F2E15E98FEC00962BFE /* LocationMonitoringService.m */; };
+		2D564F3615E990C200962BFE /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D564F3515E990C200962BFE /* MyLineDrawingView.m */; };
 		2DA33D3E15E9077A0031F9C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA33D3D15E9077A0031F9C0 /* UIKit.framework */; };
 		2DA33D4015E9077A0031F9C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA33D3F15E9077A0031F9C0 /* Foundation.framework */; };
 		2DA33D4215E9077A0031F9C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA33D4115E9077A0031F9C0 /* CoreGraphics.framework */; };
@@ -73,6 +77,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D564F2915E98B8000962BFE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2D564F2B15E98B8B00962BFE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2D564F2D15E98FEC00962BFE /* LocationMonitoringService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMonitoringService.h; sourceTree = "<group>"; };
+		2D564F2E15E98FEC00962BFE /* LocationMonitoringService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMonitoringService.m; sourceTree = "<group>"; };
+		2D564F3415E990C200962BFE /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
+		2D564F3515E990C200962BFE /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
 		2DA33D3915E9077A0031F9C0 /* Team02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Team02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA33D3D15E9077A0031F9C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2DA33D3F15E9077A0031F9C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -162,6 +172,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D564F2C15E98B8B00962BFE /* CoreLocation.framework in Frameworks */,
+				2D564F2A15E98B8000962BFE /* MapKit.framework in Frameworks */,
 				986B56B315E9367100BE9603 /* CoreData.framework in Frameworks */,
 				986B567115E932F900BE9603 /* QuartzCore.framework in Frameworks */,
 				2DA33D3E15E9077A0031F9C0 /* UIKit.framework in Frameworks */,
@@ -176,6 +188,8 @@
 		2DA33D2E15E9077A0031F9C0 = {
 			isa = PBXGroup;
 			children = (
+				2D564F2B15E98B8B00962BFE /* CoreLocation.framework */,
+				2D564F2915E98B8000962BFE /* MapKit.framework */,
 				986B56B215E9367100BE9603 /* CoreData.framework */,
 				986B567015E932F900BE9603 /* QuartzCore.framework */,
 				2DA33D4315E9077A0031F9C0 /* Team02 */,
@@ -205,6 +219,10 @@
 		2DA33D4315E9077A0031F9C0 /* Team02 */ = {
 			isa = PBXGroup;
 			children = (
+				2D564F3415E990C200962BFE /* MyLineDrawingView.h */,
+				2D564F3515E990C200962BFE /* MyLineDrawingView.m */,
+				2D564F2D15E98FEC00962BFE /* LocationMonitoringService.h */,
+				2D564F2E15E98FEC00962BFE /* LocationMonitoringService.m */,
 				986B560415E920C800BE9603 /* Resources */,
 				2DA33D4C15E9077A0031F9C0 /* AppDelegate.h */,
 				2DA33D4D15E9077A0031F9C0 /* AppDelegate.m */,
@@ -420,6 +438,8 @@
 				9873038D15E9691100B33989 /* HaggleViewController.m in Sources */,
 				9873039015E9691F00B33989 /* LuckyViewController.m in Sources */,
 				9873039515E9726F00B33989 /* SlideShowController.m in Sources */,
+				2D564F2F15E98FEC00962BFE /* LocationMonitoringService.m in Sources */,
+				2D564F3615E990C200962BFE /* MyLineDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
