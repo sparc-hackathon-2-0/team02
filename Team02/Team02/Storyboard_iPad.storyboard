@@ -36,20 +36,19 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HEe-6L-Pfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="0a5-4R-MRS" customClass="LocalViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kky-aW-4E8">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="7B4-nM-yJc">
-                                <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="oIO-ul-9Gl">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <rect key="frame" x="0.0" y="300" width="768" height="960"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="5hz-8Z-cMv"/>
                     <connections>
@@ -247,7 +246,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="YgZ-I3-kmU"/>
+                                    <action selector="realEstate:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="1nT-ln-tZj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="U4t-Jf-bHW">
@@ -262,6 +261,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="goods:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="P9N-Z7-rCU"/>
                                     <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="3KQ-4h-jse"/>
                                 </connections>
                             </button>
@@ -278,6 +278,7 @@
                                 </state>
                                 <connections>
                                     <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="FeJ-6M-TgH"/>
+                                    <action selector="services:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="2x6-MF-bru"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -753,14 +754,16 @@
         <image name="logo-large.png" width="839" height="790"/>
         <image name="profilepic-Matt.png" width="122" height="120"/>
         <image name="profilepic-Mike.png" width="122" height="120"/>
-        <image name="signin-button-pressed.png" width="791" height="141"/>
-        <image name="signin-button.png" width="791" height="141"/>
+        <image name="signin-button-pressed.png" width="703" height="127"/>
+        <image name="signin-button.png" width="703" height="127"/>
     </resources>
     <classes>
         <class className="CategoriesViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CategoriesViewController.h"/>
             <relationships>
-                <relationship kind="action" name="seguePressed:"/>
+                <relationship kind="action" name="goods:"/>
+                <relationship kind="action" name="realEstate:"/>
+                <relationship kind="action" name="services:"/>
             </relationships>
         </class>
         <class className="ClassifiedsViewController" superclassName="UIViewController">
@@ -780,6 +783,9 @@
         </class>
         <class className="LocalViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LocalViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
         </class>
         <class className="LoggingInViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LoggingInViewController.h"/>
@@ -815,7 +821,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="fLq-CQ-Wum"/>
+        <segue reference="qcI-6Q-avF"/>
         <segue reference="2oz-aK-nCd"/>
     </inferredMetricsTieBreakers>
 </document>

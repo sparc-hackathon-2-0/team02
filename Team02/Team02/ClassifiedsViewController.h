@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideShowController.h"
 
-@interface ClassifiedsViewController : UIViewController
+@interface ClassifiedsViewController : UIViewController<SlideShowDelegate>
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 

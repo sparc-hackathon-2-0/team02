@@ -74,6 +74,9 @@
 		987303A315E9881700B33989 /* icons-goods.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303A015E9881700B33989 /* icons-goods.png */; };
 		987303A415E9881700B33989 /* icons-realestate.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303A115E9881700B33989 /* icons-realestate.png */; };
 		987303A515E9881700B33989 /* icons-services.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303A215E9881700B33989 /* icons-services.png */; };
+		987303AD15E9964400B33989 /* icons-goods.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303AA15E9964400B33989 /* icons-goods.png */; };
+		987303AE15E9964400B33989 /* icons-realestate.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303AB15E9964400B33989 /* icons-realestate.png */; };
+		987303AF15E9964400B33989 /* icons-services.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303AC15E9964400B33989 /* icons-services.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +168,9 @@
 		987303A015E9881700B33989 /* icons-goods.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-goods.png"; sourceTree = "<group>"; };
 		987303A115E9881700B33989 /* icons-realestate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-realestate.png"; sourceTree = "<group>"; };
 		987303A215E9881700B33989 /* icons-services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-services.png"; sourceTree = "<group>"; };
+		987303AA15E9964400B33989 /* icons-goods.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-goods.png"; sourceTree = "<group>"; };
+		987303AB15E9964400B33989 /* icons-realestate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-realestate.png"; sourceTree = "<group>"; };
+		987303AC15E9964400B33989 /* icons-services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-services.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +288,9 @@
 				987303A015E9881700B33989 /* icons-goods.png */,
 				987303A115E9881700B33989 /* icons-realestate.png */,
 				987303A215E9881700B33989 /* icons-services.png */,
+				987303AA15E9964400B33989 /* icons-goods.png */,
+				987303AB15E9964400B33989 /* icons-realestate.png */,
+				987303AC15E9964400B33989 /* icons-services.png */,
 				9873039615E979FB00B33989 /* ad-good-needed-fav.png */,
 				9873039715E979FC00B33989 /* ad-good-needed.png */,
 				9873039815E979FC00B33989 /* ad-service-needed-fav.png */,
@@ -410,6 +419,9 @@
 				987303A315E9881700B33989 /* icons-goods.png in Resources */,
 				987303A415E9881700B33989 /* icons-realestate.png in Resources */,
 				987303A515E9881700B33989 /* icons-services.png in Resources */,
+				987303AD15E9964400B33989 /* icons-goods.png in Resources */,
+				987303AE15E9964400B33989 /* icons-realestate.png in Resources */,
+				987303AF15E9964400B33989 /* icons-services.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -83,4 +83,16 @@
     
 }
 
+- (IBAction)goods:(id)sender {
+    [self performSegueWithIdentifier:@"categoriesToClass" sender:self];
+}
+
+- (IBAction)realEstate:(id)sender {
+    [self performSegueWithIdentifier:@"categoriesToClass" sender:self];
+}
+
+- (IBAction)services:(id)sender {
+    [self performSegueWithIdentifier:@"categoriesToClass" sender:self];
+}
+
 @end
