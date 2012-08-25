@@ -49,4 +49,16 @@
 	return YES;
 }
 
+-(void) locationMonitoringServiceFoundLocation: (LocationMonitoringService *) locationMonitoringService {
+    if ( [locationMonitoringService foundLocation] ) {
+        MKCoordinateRegion reg = MKCoordinateRegionMakeWithDistance([locationMonitoringService currentLocation], 30000, 30000);
+        [[self mapView] setRegion:reg];
+        MKPointAnnotation* ann = [[MKPointAnnotation alloc] init];
+        [ann setCoordinate:[locationMonitoringService currentLocation]];
+        [[self mapView] addAnnotation:ann];
+    }
+    CGPoint point = [self.mapView convertCoordinate:[locationMonitoringService currentLocation] toPointToView:nil];
+    NSLog(@"%f, %f",point.x, point.y);
+}
+
 @end
