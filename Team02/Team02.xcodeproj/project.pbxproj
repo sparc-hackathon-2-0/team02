@@ -19,6 +19,7 @@
 		2DA33D4E15E9077A0031F9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA33D4D15E9077A0031F9C0 /* AppDelegate.m */; };
 		2DA33D5115E9077A0031F9C0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA33D4F15E9077A0031F9C0 /* MainStoryboard.storyboard */; };
 		2DA33D5415E9077A0031F9C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA33D5315E9077A0031F9C0 /* ViewController.m */; };
+		982C007A15E99D6D00B92373 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982C007915E99D6D00B92373 /* MessageUI.framework */; };
 		983043F315E94253001CAD00 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 983043F215E94253001CAD00 /* Event.m */; };
 		983043F715E9448F001CAD00 /* LoggingInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983043F615E9448F001CAD00 /* LoggingInViewController.m */; };
 		986B560215E9162800BE9603 /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986B560115E9162800BE9603 /* Storyboard_iPad.storyboard */; };
@@ -78,6 +79,7 @@
 		987303AE15E9964400B33989 /* icons-realestate.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303AB15E9964400B33989 /* icons-realestate.png */; };
 		987303AF15E9964400B33989 /* icons-services.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303AC15E9964400B33989 /* icons-services.png */; };
 		987303B215E99A6100B33989 /* profile-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 987303B115E99A6100B33989 /* profile-info.png */; };
+		987303B515E99C0F00B33989 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987303B415E99C0F00B33989 /* ItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +102,7 @@
 		2DA33D5015E9077A0031F9C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2DA33D5215E9077A0031F9C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2DA33D5315E9077A0031F9C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		982C007915E99D6D00B92373 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		983043F115E94253001CAD00 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		983043F215E94253001CAD00 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		983043F515E9448F001CAD00 /* LoggingInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingInViewController.h; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 		987303AB15E9964400B33989 /* icons-realestate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-realestate.png"; sourceTree = "<group>"; };
 		987303AC15E9964400B33989 /* icons-services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-services.png"; sourceTree = "<group>"; };
 		987303B115E99A6100B33989 /* profile-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-info.png"; sourceTree = "<group>"; };
+		987303B315E99C0F00B33989 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		987303B415E99C0F00B33989 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982C007A15E99D6D00B92373 /* MessageUI.framework in Frameworks */,
 				2D564F2C15E98B8B00962BFE /* CoreLocation.framework in Frameworks */,
 				2D564F2A15E98B8000962BFE /* MapKit.framework in Frameworks */,
 				986B56B315E9367100BE9603 /* CoreData.framework in Frameworks */,
@@ -196,6 +202,7 @@
 		2DA33D2E15E9077A0031F9C0 = {
 			isa = PBXGroup;
 			children = (
+				982C007915E99D6D00B92373 /* MessageUI.framework */,
 				2D564F2B15E98B8B00962BFE /* CoreLocation.framework */,
 				2D564F2915E98B8000962BFE /* MapKit.framework */,
 				986B56B215E9367100BE9603 /* CoreData.framework */,
@@ -268,6 +275,8 @@
 				9873038F15E9691F00B33989 /* LuckyViewController.m */,
 				9873039315E9726F00B33989 /* SlideShowController.h */,
 				9873039415E9726F00B33989 /* SlideShowController.m */,
+				987303B315E99C0F00B33989 /* ItemViewController.h */,
+				987303B415E99C0F00B33989 /* ItemViewController.m */,
 			);
 			path = Team02;
 			sourceTree = "<group>";
@@ -456,6 +465,7 @@
 				9873039515E9726F00B33989 /* SlideShowController.m in Sources */,
 				2D564F2F15E98FEC00962BFE /* LocationMonitoringService.m in Sources */,
 				2D564F3615E990C200962BFE /* MyLineDrawingView.m in Sources */,
+				987303B515E99C0F00B33989 /* ItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
