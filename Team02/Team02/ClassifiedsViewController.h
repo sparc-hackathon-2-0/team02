@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "SlideShowController.h"
 
-@interface ClassifiedsViewController : UIViewController
+@interface ClassifiedsViewController : UIViewController<slideShowDelegate>
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) AppDelegate *appDelegate;
 
 @end

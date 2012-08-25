@@ -129,10 +129,26 @@
                     <connections>
                         <outlet property="scrollView" destination="ggF-BY-SZq" id="T9q-Cr-JPf"/>
                         <segue destination="FuB-8w-Nrd" kind="replace" identifier="returnToOrig" splitViewControllerTargetIndex="1" id="bTf-V0-eec"/>
+                        <segue destination="K4d-VJ-R50" kind="push" identifier="viewItem" id="Hji-zR-OJ2"/>
                     </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="6416" y="2359"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gwj-dT-hms">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OBc-wA-sQi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="K4d-VJ-R50" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o7B-kj-9wA">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4SY-ij-w5p"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="7637" y="2155"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="E9a-g5-8vi">
@@ -696,66 +712,13 @@
         <image name="signin-button-pressed.png" width="791" height="141"/>
         <image name="signin-button.png" width="791" height="141"/>
     </resources>
-    <classes>
-        <class className="CategoriesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CategoriesViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="seguePressed:"/>
-            </relationships>
-        </class>
-        <class className="ClassifiedsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClassifiedsViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="HaggleViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HaggleViewController.h"/>
-        </class>
-        <class className="LocalViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LocalViewController.h"/>
-        </class>
-        <class className="LoggingInViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoggingInViewController.h"/>
-        </class>
-        <class className="LoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loginPressed:"/>
-            </relationships>
-        </class>
-        <class className="LuckyViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LuckyViewController.h"/>
-        </class>
-        <class className="MasterViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="HagglePressed:"/>
-                <relationship kind="action" name="categoriesPressed:"/>
-                <relationship kind="action" name="classifiedPressed:"/>
-                <relationship kind="action" name="feelingLuckyPressed:"/>
-                <relationship kind="action" name="localPressed:"/>
-                <relationship kind="action" name="profilePressed:"/>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="ProfileViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfileViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="qcI-6Q-avF"/>
+        <segue reference="bTf-V0-eec"/>
         <segue reference="2oz-aK-nCd"/>
     </inferredMetricsTieBreakers>
 </document>
