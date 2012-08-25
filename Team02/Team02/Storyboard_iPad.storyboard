@@ -176,6 +176,51 @@
                                 <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qVl-zI-Ubj">
+                                <rect key="frame" x="172" y="271" width="416" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="icons-realestate.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="YgZ-I3-kmU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="U4t-Jf-bHW">
+                                <rect key="frame" x="126" y="137" width="416" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="icons-goods.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="3KQ-4h-jse"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="s7I-mg-I1a">
+                                <rect key="frame" x="126" y="400" width="450" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="icons-services.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="seguePressed:" destination="Qey-hA-Oi8" eventType="touchUpInside" id="FeJ-6M-TgH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -183,10 +228,11 @@
                     <navigationItem key="navigationItem" id="C57-cM-X9v"/>
                     <connections>
                         <segue destination="FuB-8w-Nrd" kind="replace" identifier="returnToOrig" splitViewControllerTargetIndex="1" id="qcI-6Q-avF"/>
+                        <segue destination="kbh-eL-fV8" kind="push" identifier="categoriesToClass" id="2oz-aK-nCd"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="6557" y="1135"/>
+            <point key="canvasLocation" x="6531" y="1161"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="fC9-Vt-qR3">
@@ -642,17 +688,74 @@
         <image name="barterbee-bg-new.png" width="722" height="768"/>
         <image name="dark-row-pressed.png" width="302" height="50"/>
         <image name="dark-row.png" width="302" height="50"/>
+        <image name="icons-goods.png" width="314" height="108"/>
+        <image name="icons-realestate.png" width="421" height="108"/>
+        <image name="icons-services.png" width="357" height="108"/>
         <image name="logo-large.png" width="839" height="790"/>
         <image name="profilepic-Mike.png" width="122" height="120"/>
         <image name="signin-button-pressed.png" width="791" height="141"/>
         <image name="signin-button.png" width="791" height="141"/>
     </resources>
+    <classes>
+        <class className="CategoriesViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CategoriesViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="seguePressed:"/>
+            </relationships>
+        </class>
+        <class className="ClassifiedsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClassifiedsViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="HaggleViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HaggleViewController.h"/>
+        </class>
+        <class className="LocalViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LocalViewController.h"/>
+        </class>
+        <class className="LoggingInViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoggingInViewController.h"/>
+        </class>
+        <class className="LoginViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="loginPressed:"/>
+            </relationships>
+        </class>
+        <class className="LuckyViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LuckyViewController.h"/>
+        </class>
+        <class className="MasterViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="HagglePressed:"/>
+                <relationship kind="action" name="categoriesPressed:"/>
+                <relationship kind="action" name="classifiedPressed:"/>
+                <relationship kind="action" name="feelingLuckyPressed:"/>
+                <relationship kind="action" name="localPressed:"/>
+                <relationship kind="action" name="profilePressed:"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="ProfileViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfileViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="bTf-V0-eec"/>
+        <segue reference="qcI-6Q-avF"/>
+        <segue reference="2oz-aK-nCd"/>
     </inferredMetricsTieBreakers>
 </document>

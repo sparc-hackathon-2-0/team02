@@ -83,4 +83,9 @@
     
 }
 
+- (IBAction)seguePressed:(id)sender {
+    [self performSegueWithIdentifier:@"categoriesToClass" sender:self];
+}
+
+
 @end
