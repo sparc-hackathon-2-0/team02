@@ -60,6 +60,8 @@
 		9873038A15E9690200B33989 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038915E9690200B33989 /* LocalViewController.m */; };
 		9873038D15E9691100B33989 /* HaggleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038C15E9691100B33989 /* HaggleViewController.m */; };
 		9873039015E9691F00B33989 /* LuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873038F15E9691F00B33989 /* LuckyViewController.m */; };
+		9873039215E9705300B33989 /* ad-service-needed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9873039115E9705300B33989 /* ad-service-needed.png */; };
+		9873039515E9726F00B33989 /* SlideShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873039415E9726F00B33989 /* SlideShowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +136,9 @@
 		9873038C15E9691100B33989 /* HaggleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaggleViewController.m; sourceTree = "<group>"; };
 		9873038E15E9691F00B33989 /* LuckyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyViewController.h; sourceTree = "<group>"; };
 		9873038F15E9691F00B33989 /* LuckyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyViewController.m; sourceTree = "<group>"; };
+		9873039115E9705300B33989 /* ad-service-needed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad-service-needed.png"; sourceTree = "<group>"; };
+		9873039315E9726F00B33989 /* SlideShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShowController.h; sourceTree = "<group>"; };
+		9873039415E9726F00B33989 /* SlideShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideShowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +224,8 @@
 				9873038C15E9691100B33989 /* HaggleViewController.m */,
 				9873038E15E9691F00B33989 /* LuckyViewController.h */,
 				9873038F15E9691F00B33989 /* LuckyViewController.m */,
+				9873039315E9726F00B33989 /* SlideShowController.h */,
+				9873039415E9726F00B33989 /* SlideShowController.m */,
 			);
 			path = Team02;
 			sourceTree = "<group>";
@@ -238,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				986B560515E9210100BE9603 /* background.png */,
+				9873039115E9705300B33989 /* ad-service-needed.png */,
 				9873036515E95EC500B33989 /* profilepic-Matt.png */,
 				9873036A15E95ECE00B33989 /* signin-button.png */,
 				9873036B15E95ECE00B33989 /* signin-button-pressed.png */,
@@ -351,6 +359,7 @@
 				9873037815E95ECE00B33989 /* logo-small.png in Resources */,
 				9873037915E95ECE00B33989 /* logo-large.png in Resources */,
 				9873037B15E964D700B33989 /* barterbee-bg-new.png in Resources */,
+				9873039215E9705300B33989 /* ad-service-needed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +387,7 @@
 				9873038A15E9690200B33989 /* LocalViewController.m in Sources */,
 				9873038D15E9691100B33989 /* HaggleViewController.m in Sources */,
 				9873039015E9691F00B33989 /* LuckyViewController.m in Sources */,
+				9873039515E9726F00B33989 /* SlideShowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

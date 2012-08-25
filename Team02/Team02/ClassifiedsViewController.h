@@ -10,4 +10,6 @@
 
 @interface ClassifiedsViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @end
