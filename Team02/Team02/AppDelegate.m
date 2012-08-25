@@ -162,4 +162,12 @@
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
+-(LocationMonitoringService *) locationMonitoringService {
+    if ( __locationMonitoringService == nil ) {
+        __locationMonitoringService = [[LocationMonitoringService alloc] init];
+    }
+    return __locationMonitoringService;
+}
+
+
 @end
