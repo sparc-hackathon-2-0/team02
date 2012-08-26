@@ -18,6 +18,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="welcome-element.png" id="UaG-A1-RTJ">
+                                <rect key="frame" x="47" y="226" width="612" height="215"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -760,15 +764,11 @@
         <image name="signin-button-pressed.png" width="703" height="127"/>
         <image name="signin-button.png" width="703" height="127"/>
         <image name="submit-image.png" width="595" height="626"/>
+        <image name="welcome-element.png" width="612" height="215"/>
     </resources>
     <classes>
         <class className="CategoriesViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CategoriesViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="goods:"/>
-                <relationship kind="action" name="realEstate:"/>
-                <relationship kind="action" name="services:"/>
-            </relationships>
         </class>
         <class className="ClassifiedsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ClassifiedsViewController.h"/>
@@ -787,9 +787,6 @@
         </class>
         <class className="ItemViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ItemViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="emailPressed:"/>
-            </relationships>
         </class>
         <class className="LocalViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LocalViewController.h"/>
@@ -802,9 +799,6 @@
         </class>
         <class className="LoginViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loginPressed:"/>
-            </relationships>
         </class>
         <class className="LuckyViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LuckyViewController.h"/>
@@ -812,12 +806,6 @@
         <class className="MasterViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
             <relationships>
-                <relationship kind="action" name="HagglePressed:"/>
-                <relationship kind="action" name="categoriesPressed:"/>
-                <relationship kind="action" name="classifiedPressed:"/>
-                <relationship kind="action" name="feelingLuckyPressed:"/>
-                <relationship kind="action" name="localPressed:"/>
-                <relationship kind="action" name="profilePressed:"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>

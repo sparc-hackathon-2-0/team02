@@ -22,6 +22,7 @@
 		982C007A15E99D6D00B92373 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982C007915E99D6D00B92373 /* MessageUI.framework */; };
 		982C007E15E99E1A00B92373 /* button-submit--barter.png in Resources */ = {isa = PBXBuildFile; fileRef = 982C007C15E99E1A00B92373 /* button-submit--barter.png */; };
 		982C007F15E99E1A00B92373 /* submit-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 982C007D15E99E1A00B92373 /* submit-image.png */; };
+		982C008115E99FE700B92373 /* welcome-element.png in Resources */ = {isa = PBXBuildFile; fileRef = 982C008015E99FE700B92373 /* welcome-element.png */; };
 		983043F315E94253001CAD00 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 983043F215E94253001CAD00 /* Event.m */; };
 		983043F715E9448F001CAD00 /* LoggingInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983043F615E9448F001CAD00 /* LoggingInViewController.m */; };
 		986B560215E9162800BE9603 /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986B560115E9162800BE9603 /* Storyboard_iPad.storyboard */; };
@@ -107,6 +108,7 @@
 		982C007915E99D6D00B92373 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		982C007C15E99E1A00B92373 /* button-submit--barter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-submit--barter.png"; sourceTree = "<group>"; };
 		982C007D15E99E1A00B92373 /* submit-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submit-image.png"; sourceTree = "<group>"; };
+		982C008015E99FE700B92373 /* welcome-element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-element.png"; sourceTree = "<group>"; };
 		983043F115E94253001CAD00 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		983043F215E94253001CAD00 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		983043F515E9448F001CAD00 /* LoggingInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingInViewController.h; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				986B560515E9210100BE9603 /* background.png */,
 				987303A015E9881700B33989 /* icons-goods.png */,
 				982C007C15E99E1A00B92373 /* button-submit--barter.png */,
+				982C008015E99FE700B92373 /* welcome-element.png */,
 				982C007D15E99E1A00B92373 /* submit-image.png */,
 				987303B115E99A6100B33989 /* profile-info.png */,
 				987303A115E9881700B33989 /* icons-realestate.png */,
@@ -443,6 +446,7 @@
 				987303B215E99A6100B33989 /* profile-info.png in Resources */,
 				982C007E15E99E1A00B92373 /* button-submit--barter.png in Resources */,
 				982C007F15E99E1A00B92373 /* submit-image.png in Resources */,
+				982C008115E99FE700B92373 /* welcome-element.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
