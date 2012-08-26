@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 
 @interface Skill : NSObject
+
+    @property CLLocationCoordinate2D coordinate;
 
 @end

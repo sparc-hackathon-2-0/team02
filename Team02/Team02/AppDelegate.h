@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "LocationMonitoringService.h"
+#import "SkillsDao.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     LocationMonitoringService *__locationMonitoringService;
+    SkillsDao *__skillsDao;
 }
 
 @property (strong, nonatomic) UIWindow *window;
@@ -23,5 +25,6 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 -(LocationMonitoringService *) locationMonitoringService;
+-(SkillsDao *) skillsDao;
 
 @end

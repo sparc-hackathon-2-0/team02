@@ -34,6 +34,7 @@
     [locationMonitoringService startMonitoringLocation];
     MyLineDrawingView *lineDrawingView = [[MyLineDrawingView alloc] initWithFrame:self.view.frame];
     lineDrawingView.backgroundColor = [UIColor colorWithWhite:0 alpha:0];
+    [lineDrawingView setDelegate:self];
     [mapView addSubview:lineDrawingView];
     
 }
@@ -59,6 +60,21 @@
     }
     CGPoint point = [self.mapView convertCoordinate:[locationMonitoringService currentLocation] toPointToView:nil];
     NSLog(@"%f, %f",point.x, point.y);
+    
+}
+
+-(void) drawingFinished:(MyLineDrawingView *) lineDrawingView {
+
+    SkillsDao *skillsDao = [(AppDelegate *)[[UIApplication sharedApplication] delegate] skillsDao];
+    [[skillsDao getSkills] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if ( [lineDrawingView insidePolygon:[mapView convertCoordinate:[obj coordinate] toPointToView:nil] ]){
+            MKPointAnnotation* ann = [[MKPointAnnotation alloc] init];
+            [ann setCoordinate:[obj coordinate]];
+            [[self mapView] addAnnotation:ann];
+        }
+        
+    }];
+    
 }
 
 @end

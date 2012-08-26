@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 
 @interface SkillsDao : NSObject
+
+-(NSArray *) getSkills;
 
 @end

@@ -169,5 +169,12 @@
     return __locationMonitoringService;
 }
 
+-(SkillsDao *) skillsDao {
+    if ( __skillsDao == nil ) {
+        __skillsDao = [[SkillsDao alloc] init];
+    }
+    return __skillsDao;
+}
+
 
 @end

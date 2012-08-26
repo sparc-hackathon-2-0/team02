@@ -10,4 +10,6 @@
 
 @implementation Skill
 
+@synthesize coordinate;
+
 @end
