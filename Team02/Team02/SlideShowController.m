@@ -14,6 +14,7 @@
 @synthesize scrollView = _scrollView;
 @synthesize timeInterval = _timeInterval;
 @synthesize imageFilenames = _imageFilenames;
+@synthesize delegate = _delegate;
 
 - (id) initWithScrollView:(UIScrollView *)scrollView andImageFilenamesArray:(NSArray *)imageFilenames andTimeInterval:(float)timeInterval
 {
@@ -46,12 +47,22 @@
         imageView.contentMode = UIViewContentModeScaleAspectFit;
         [imageView setTag:count];
         
-        UIGestureRecognizer *tapGesture = [[UIGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped:)];
+        //UIImageView *rowsBackground = [[UIImageView alloc] initWithImage:[self scaleAndRotateImage:[UIImage imageNamed:@"mylongbackground.png"]]];
+        //rowsBackground.userInteractionEnabled = YES;
         
-        [imageView addGestureRecognizer:tapGesture];
+        //create button
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        btn.frame = [imageView frame];
+        btn.bounds = [imageView bounds];
+        [btn setImage:[imageView image] forState:UIControlStateNormal];
+        [btn addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+        
+        //add "stuff" to scrolling area
+        //[scrollView addSubview:rowsBackground];
+        [_scrollView addSubview:btn];
         
         //imageView.contentMode = UIViewContentModeScaleAspectFill;
-        [_scrollView addSubview:imageView];
+        //[_scrollView addSubview:imageView];
         contentOffset += _scrollView.frame.size.height;
         _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width, contentOffset);
         
@@ -66,6 +77,11 @@
     
     //return self reference 
     return self;
+}
+
+-(void)buttonClick
+{
+    [_delegate segueToItem];
 }
 
 - (void) stopSlideShow

@@ -11,10 +11,13 @@
 
 @interface ClassifiedsViewController ()
 
+@property SlideShowController *slideShowController;
+
 @end
 
 @implementation ClassifiedsViewController
 @synthesize scrollView = _scrollView;
+@synthesize slideShowController = _slideShowController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,9 +35,9 @@
     
     NSArray *imageFilenames = [NSArray arrayWithObjects:@"ad-service-needed",@"ad-good-needed.png",@"ad-service-offered.png",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",@"ad-service-needed",nil];
     
-    _scrollView = [[SlideShowController alloc] initWithScrollView:_scrollView andImageFilenamesArray:imageFilenames andTimeInterval:5.0];
+    _slideShowController = [[SlideShowController alloc] initWithScrollView:_scrollView andImageFilenamesArray:imageFilenames andTimeInterval:5.0];
     
-    
+    [_slideShowController setDelegate:self];
     
 }
 
@@ -48,6 +51,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
 	return YES;
+}
+
+-(void)segueToItem
+{
+    [self performSegueWithIdentifier:@"viewItem" sender:self];
 }
 
 @end

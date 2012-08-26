@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol SlideShowDelegate <NSObject>
+
+-(void)segueToItem;
+
+@end
+
 @interface SlideShowController : NSObject{
     float pageNumberYouWantToGoTo;
     float maxPages;
@@ -18,6 +24,7 @@
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) NSNumber *timeInterval;
 @property (nonatomic, strong) NSArray *imageFilenames;
+@property (nonatomic,strong) id delegate;
 
 - (id) initWithScrollView:(UIScrollView *)scrollView andImageFilenamesArray:(NSArray *)imageFilenames andTimeInterval:(float)timeInterval;
 
