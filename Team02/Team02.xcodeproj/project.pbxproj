@@ -11,6 +11,8 @@
 		2D564F2C15E98B8B00962BFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D564F2B15E98B8B00962BFE /* CoreLocation.framework */; };
 		2D564F2F15E98FEC00962BFE /* LocationMonitoringService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D564F2E15E98FEC00962BFE /* LocationMonitoringService.m */; };
 		2D564F3615E990C200962BFE /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D564F3515E990C200962BFE /* MyLineDrawingView.m */; };
+		2D564F3E15E9988B00962BFE /* SkillsDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D564F3D15E9988B00962BFE /* SkillsDao.m */; };
+		2D564F4215E9997500962BFE /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D564F4115E9997500962BFE /* Skill.m */; };
 		2DA33D3E15E9077A0031F9C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA33D3D15E9077A0031F9C0 /* UIKit.framework */; };
 		2DA33D4015E9077A0031F9C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA33D3F15E9077A0031F9C0 /* Foundation.framework */; };
 		2DA33D4215E9077A0031F9C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA33D4115E9077A0031F9C0 /* CoreGraphics.framework */; };
@@ -92,6 +94,10 @@
 		2D564F2E15E98FEC00962BFE /* LocationMonitoringService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMonitoringService.m; sourceTree = "<group>"; };
 		2D564F3415E990C200962BFE /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
 		2D564F3515E990C200962BFE /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
+		2D564F3C15E9988B00962BFE /* SkillsDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillsDao.h; sourceTree = "<group>"; };
+		2D564F3D15E9988B00962BFE /* SkillsDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillsDao.m; sourceTree = "<group>"; };
+		2D564F4015E9997500962BFE /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		2D564F4115E9997500962BFE /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
 		2DA33D3915E9077A0031F9C0 /* Team02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Team02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA33D3D15E9077A0031F9C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2DA33D3F15E9077A0031F9C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -281,6 +287,11 @@
 				9873038F15E9691F00B33989 /* LuckyViewController.m */,
 				9873039315E9726F00B33989 /* SlideShowController.h */,
 				9873039415E9726F00B33989 /* SlideShowController.m */,
+				2D564F3C15E9988B00962BFE /* SkillsDao.h */,
+				2D564F3D15E9988B00962BFE /* SkillsDao.m */,
+				2D564F4015E9997500962BFE /* Skill.h */,
+				2D564F4115E9997500962BFE /* Skill.m */,
+
 				987303B315E99C0F00B33989 /* ItemViewController.h */,
 				987303B415E99C0F00B33989 /* ItemViewController.m */,
 			);
@@ -477,7 +488,11 @@
 				9873039515E9726F00B33989 /* SlideShowController.m in Sources */,
 				2D564F2F15E98FEC00962BFE /* LocationMonitoringService.m in Sources */,
 				2D564F3615E990C200962BFE /* MyLineDrawingView.m in Sources */,
+				2D564F3E15E9988B00962BFE /* SkillsDao.m in Sources */,
+				2D564F4215E9997500962BFE /* Skill.m in Sources */,
+
 				987303B515E99C0F00B33989 /* ItemViewController.m in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

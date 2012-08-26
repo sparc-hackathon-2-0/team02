@@ -10,6 +10,9 @@
 
 @implementation MyLineDrawingView
 
+
+@synthesize delegate;
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -61,7 +64,7 @@
 {   
     [myPath closePath];
     [self setNeedsDisplay];
-    NSLog(@"%o",[self insidePolygon:CGPointMake(384.0,522.000000)]);
+    [delegate performSelector:@selector(drawingFinished:) withObject:self];
 }
 
 

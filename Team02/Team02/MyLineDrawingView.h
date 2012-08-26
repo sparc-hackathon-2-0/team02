@@ -16,4 +16,8 @@
     NSMutableArray *pathPoints;
 }
 
+@property id delegate;
+
+-(BOOL) insidePolygon:(CGPoint) point;
+
 @end
