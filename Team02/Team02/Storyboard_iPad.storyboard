@@ -13,6 +13,12 @@
                     <view key="view" contentMode="scaleToFill" id="KqW-eW-W0n">
                         <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barterbee-bg-new.png" id="Dif-6W-JoC">
+                                <rect key="frame" x="0.0" y="0.0" width="703" height="704"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -28,7 +34,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="3727" y="2201"/>
+            <point key="canvasLocation" x="3875" y="2249"/>
         </scene>
         <!--Local View Controller-->
         <scene sceneID="wef-16-inI">
