@@ -191,6 +191,9 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="4SY-ij-w5p"/>
+                    <connections>
+                        <segue destination="FuB-8w-Nrd" kind="replace" identifier="returnToOrig" splitViewControllerTargetIndex="1" id="103-N3-Iyh"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="7641" y="2379"/>
@@ -769,6 +772,11 @@
     <classes>
         <class className="CategoriesViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CategoriesViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="goods:"/>
+                <relationship kind="action" name="realEstate:"/>
+                <relationship kind="action" name="services:"/>
+            </relationships>
         </class>
         <class className="ClassifiedsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ClassifiedsViewController.h"/>
@@ -787,6 +795,9 @@
         </class>
         <class className="ItemViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ItemViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="emailPressed:"/>
+            </relationships>
         </class>
         <class className="LocalViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LocalViewController.h"/>
@@ -799,6 +810,9 @@
         </class>
         <class className="LoginViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="loginPressed:"/>
+            </relationships>
         </class>
         <class className="LuckyViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LuckyViewController.h"/>
@@ -806,6 +820,12 @@
         <class className="MasterViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
             <relationships>
+                <relationship kind="action" name="HagglePressed:"/>
+                <relationship kind="action" name="categoriesPressed:"/>
+                <relationship kind="action" name="classifiedPressed:"/>
+                <relationship kind="action" name="feelingLuckyPressed:"/>
+                <relationship kind="action" name="localPressed:"/>
+                <relationship kind="action" name="profilePressed:"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>
@@ -819,7 +839,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="qcI-6Q-avF"/>
+        <segue reference="103-N3-Iyh"/>
         <segue reference="2oz-aK-nCd"/>
     </inferredMetricsTieBreakers>
 </document>
